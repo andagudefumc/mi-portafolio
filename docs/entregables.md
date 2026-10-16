@@ -169,3 +169,5 @@ Conectaría el formulario a un backend o servicio seguro con protección contra 
 - [ ] Publiqué en GitHub Pages y copié la URL real.
 - [ ] Realicé al menos cinco commits descriptivos.
 - [ ] Añadí capturas reales del despliegue y del historial de commits.
+
+Después de cada modificación, verificaré el funcionamiento del sitio publicado y registraré los cambios relevantes en el historial del repositorio.
