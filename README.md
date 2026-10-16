@@ -35,6 +35,14 @@ El sitio está publicado mediante GitHub Pages:
 
 https://andagudefumc.github.io/mi-portafolio/
 
+## Historial de commits
+
+- `7268b96`: Compromiso inicial
+- `60cc0c6`: Agregar archivos mediante carga
+- `86be201`: Agregar archivos mediante carga
+- `fc26c00`: Agregar archivos mediante carga
+- `bf4178b`: docs: corregir y verificar entregables del proyecto
+
 ## Seguridad y privacidad
 
 No se deben incluir credenciales, datos personales de terceros ni información confidencial de clientes, empresas o infraestructura tecnológica.
