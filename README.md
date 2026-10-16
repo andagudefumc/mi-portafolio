@@ -1,63 +1,44 @@
-# Mi Portafolio Web Interactivo
+# Portafolio web profesional
 
 **Autor:** Andrés Agudelo  
 **Actividad:** AEA Unidad 1 — Fundamentos de los Lenguajes de Programación y Programación Declarativa  
-**Tecnologías:** HTML5, CSS3 y JavaScript vanilla.
+**Tecnologías:** HTML5, CSS3 y JavaScript.
 
 ## Descripción
-Portafolio profesional adaptable para un perfil de CISO y administrador de infraestructura. Incluye presentación, tres proyectos de ejemplo renderizados desde un arreglo JavaScript, competencias, navegación móvil, cambio de tema y validación de formulario en cliente.
 
-## Ejecutar localmente
-1. Descarga o clona el repositorio.
-2. Abre `index.html` en un navegador moderno. Para una experiencia más consistente, usa la extensión Live Server de VS Code.
-3. Prueba la navegación, el botón de tema, las tarjetas y el formulario.
+Este proyecto presenta mi perfil profesional en el área de seguridad de la información y administración de infraestructura tecnológica. El sitio reúne información sobre mis competencias, proyectos y canales de contacto, mediante una interfaz adaptable a distintos dispositivos.
 
-No requiere dependencias ni compilación.
+La página incorpora navegación entre secciones, tarjetas de proyectos, opciones de visualización y validación de datos en el formulario de contacto.
 
-## Estructura
-```text
-mi-portafolio/
-├── index.html
-├── css/
-│   ├── reset.css
-│   ├── variables.css
-│   ├── layout.css
-│   └── components.css
-├── js/
-│   ├── main.js
-│   ├── form-handler.js
-│   └── animations.js
-├── assets/
-│   ├── images/
-│   └── icons/
-├── docs/
-│   └── entregables.md
-└── README.md
-```
+## Ejecución local
 
-## Personalización pendiente
-- Cambiar `andres@example.com` por el correo real.
-- Sustituir los ejemplos por proyectos propios y enlaces reales.
-- Añadir URL reales de perfiles GitHub y LinkedIn.
-- No publicar información confidencial de clientes, infraestructura o incidentes.
+1. Descarga el repositorio.
+2. Abre la carpeta del proyecto en Visual Studio Code.
+3. Ejecuta `index.html` con Live Server o ábrelo directamente en un navegador.
+4. Recorre las secciones y comprueba el funcionamiento de los elementos interactivos.
 
-## Formulario
-La validación es una simulación en JavaScript. No envía, almacena ni procesa datos en un backend. Para recibir mensajes reales se requiere un servicio o backend seguro.
+El proyecto utiliza HTML, CSS y JavaScript, sin un proceso de compilación.
 
-## Despliegue en GitHub Pages
-1. Crea un repositorio público llamado `mi-portafolio` en GitHub.
-2. Sube los archivos manteniendo las carpetas.
-3. Abre **Settings → Pages**.
-4. En **Build and deployment**, elige **Deploy from a branch**, rama `main`, carpeta `/ (root)` y guarda.
-5. Espera la publicación y abre la URL que GitHub Pages muestra en esa pantalla.
+## Tecnologías utilizadas
 
-## Historial sugerido de commits
-1. `chore: crear estructura inicial del portafolio`
-2. `feat: agregar estructura semántica HTML5`
-3. `style: implementar diseño responsivo y tokens CSS`
-4. `feat: renderizar proyectos dinámicamente`
-5. `feat: agregar menú móvil, tema y validación de formulario`
-6. `docs: documentar instalación y entregables`
+- **HTML5:** estructura y contenido semántico.
+- **CSS3:** presentación visual y adaptación a diferentes tamaños de pantalla.
+- **JavaScript:** interacción con el menú, visualización de proyectos y validación del formulario.
 
-## Licencia
-Uso académico. Ajustar si se requiere una licencia distinta.
+## Formulario de contacto
+
+El formulario realiza validaciones en el navegador. Actualmente no envía información a un servidor ni almacena mensajes. Para recibir comunicaciones mediante el formulario será necesario integrar un servicio de envío o un backend seguro.
+
+## Publicación
+
+El sitio está publicado mediante GitHub Pages:
+
+https://andagudefumc.github.io/mi-portafolio/
+
+## Seguridad y privacidad
+
+No se deben incluir credenciales, datos personales de terceros ni información confidencial de clientes, empresas o infraestructura tecnológica.
+
+## Uso académico
+
+Proyecto desarrollado en el contexto de la actividad académica indicada en este documento. Las descripciones de proyectos y competencias deben distinguir entre experiencias reales, ejercicios académicos y ejemplos demostrativos.
