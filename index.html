@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio profesional de Andrés Agudelo, CISO y administrador de infraestructura.">
+  <meta name="theme-color" content="#0b1220">
+  <title>Andrés Agudelo | CISO e Infraestructura</title>
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <script src="js/main.js" defer></script>
+  <script src="js/form-handler.js" defer></script>
+  <script src="js/animations.js" defer></script>
+</head>
+<body>
+  <!-- Encabezado semántico con navegación adaptable -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="Andrés Agudelo, inicio"><span class="brand-mark" aria-hidden="true">AA</span><span>Andrés Agudelo</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#sobre-mi">Sobre mí</a></li><li><a href="#proyectos">Proyectos</a></li><li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Cambiar tema" title="Cambiar tema">◐</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero / presentación personal -->
+    <section class="hero section" id="inicio" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Seguridad · Infraestructura · Riesgos</p>
+          <h1 id="hero-title">Hola, soy <span>Andrés Agudelo.</span></h1>
+          <h2>CISO y administrador de infraestructura</h2>
+          <p>Protejo la información, gestiono infraestructura tecnológica y promuevo entornos digitales seguros, disponibles y confiables.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#proyectos">Ver proyectos <span aria-hidden="true">→</span></a><a class="button button-secondary" href="#contacto">Hablemos</a></div>
+          <div class="hero-tags"><span>Gobierno de seguridad</span><span>Gestión de riesgos</span><span>Infraestructura TI</span></div>
+        </div>
+        <div class="hero-visual" aria-label="Ilustración conceptual de seguridad digital" role="img"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="shield">⌑<span>✓</span></div><div class="server server-one"><i></i><i></i><i></i></div><div class="server server-two"><i></i><i></i><i></i></div><div class="floating-label label-top">● Sistemas protegidos</div><div class="floating-label label-bottom">ISO 27001 · GRC</div></div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="sobre-mi" aria-labelledby="about-title"><div class="container about-grid"><div><p class="eyebrow">Perfil profesional</p><h2 id="about-title">Tecnología confiable, seguridad por diseño.</h2></div><p>Mi enfoque integra controles de seguridad, continuidad operativa y administración de plataformas. Busco que la seguridad sea práctica, medible y alineada con los objetivos del negocio. Este portafolio presenta ejemplos académicos de soluciones y documentación técnica.</p></div></section>
+
+    <!-- Las tarjetas se generan desde un arreglo en JavaScript -->
+    <section class="section projects-section" id="proyectos" aria-labelledby="projects-title"><div class="container"><div class="section-heading"><div><p class="eyebrow">Trabajo destacado</p><h2 id="projects-title">Proyectos</h2></div><p>Ejemplos demostrativos que reúnen seguridad, automatización y operación.</p></div><div class="projects-grid" id="proyectos-grid" aria-live="polite"></div></div></section>
+
+    <section class="section skills-section" aria-labelledby="skills-title"><div class="container"><p class="eyebrow">Áreas de trabajo</p><h2 id="skills-title">Competencias clave</h2><div class="skills-grid"><article class="skill-card"><span class="skill-icon">⌘</span><h3>Seguridad y GRC</h3><p>Controles, políticas, riesgos y evidencias de cumplimiento.</p></article><article class="skill-card"><span class="skill-icon">▤</span><h3>Infraestructura</h3><p>Disponibilidad, monitoreo, servicios y administración técnica.</p></article><article class="skill-card"><span class="skill-icon">⌁</span><h3>Automatización</h3><p>Scripts, documentación y mejora continua de procesos.</p></article></div></div></section>
+
+    <!-- Formulario validado en HTML5 y JavaScript; no envía datos a un servidor -->
+    <section class="section contact-section" id="contacto" aria-labelledby="contact-title"><div class="container contact-grid"><div class="contact-copy"><p class="eyebrow">Contacto</p><h2 id="contact-title">Construyamos algo seguro.</h2><p>¿Tienes una idea, un reto de infraestructura o una iniciativa de seguridad? Envíame un mensaje de prueba mediante el formulario.</p><a class="email-link" href="mailto:andres@example.com">✉ andres@example.com</a><p class="form-note">Correo de ejemplo: reemplázalo por tu dirección real antes de publicar.</p></div><form class="contact-form" id="contact-form" novalidate><div class="form-field"><label for="nombre">Nombre</label><input id="nombre" name="nombre" type="text" autocomplete="name" placeholder="Tu nombre" required minlength="2"><small class="field-error" id="nombre-error"></small></div><div class="form-field"><label for="email">Correo electrónico</label><input id="email" name="email" type="email" autocomplete="email" placeholder="tu@correo.com" required><small class="field-error" id="email-error"></small></div><div class="form-field"><label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntame brevemente tu idea..." required minlength="10"></textarea><small class="field-error" id="mensaje-error"></small></div><button class="button button-primary submit-button" type="submit">Validar mensaje <span aria-hidden="true">→</span></button><p class="form-status" id="form-status" role="status" aria-live="polite"></p></form></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="#inicio"><span class="brand-mark">AA</span><span>Andrés Agudelo</span></a><div class="social-links"><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div><p>© <span id="year">2026</span> Andrés Agudelo. Proyecto académico.</p></div></footer>
+</body>
+</html>
